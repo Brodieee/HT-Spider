@@ -26,7 +26,7 @@ class Wangyiyun3MySQLPipeline(object):
             host='127.0.0.1',
             port=3306,
             user='root',  # 使用自己的用户名
-            passwd='ht19970910',  # 使用自己的密码
+            passwd='',  # 使用自己的密码
             db='wangyiyun',  # 数据库名
             charset='utf8')
         self.cursor = self.client.cursor()
